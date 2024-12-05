@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Button } from "@nextui-org/button";
+import React from "react";
 
 export const Counter = () => {
   const [count, setCount] = useState(0);
